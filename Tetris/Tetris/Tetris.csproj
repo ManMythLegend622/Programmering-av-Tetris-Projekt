@@ -41,6 +41,7 @@
     <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="BoardSprite.cs" />
     <Compile Include="FormSprites.cs" />
     <Compile Include="PoängSprites.cs" />
     <Compile Include="TetrisGame.cs" />
