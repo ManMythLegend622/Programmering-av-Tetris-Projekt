@@ -63,26 +63,26 @@ namespace TetrisGame
 
             spriteBatch.Begin();
             spriteBatch.DrawString(fontEm,
-                "Poäng: " + score.ScoreValue + "\nNivå: " + score.Level + "\nKlarade linjer: "
+                "Poang: " + score.ScoreValue + "\nNiva: " + score.Level + "\nKlarade linjer: "
                 + score.Lines + gameover, new Vector2(20, GraphicsDevice.Viewport.Height - 90), fontColour);
             spriteBatch.DrawString(fontTitle, "TETRIS", new Vector2(75, 15), Color.LimeGreen);
 
-            spriteBatch.DrawString(font, "Nästa form:", new Vector2(230, 80), baseTxt);
-            spriteBatch.DrawString(font, "Högsta poäng:", new Vector2(230, 180), baseTxt);
+            spriteBatch.DrawString(font, "Nasta form:", new Vector2(230, 80), baseTxt);
+            spriteBatch.DrawString(font, "Hogsta poang:", new Vector2(230, 180), baseTxt);
             spriteBatch.DrawString(fontTitle, "" + highScore, new Vector2(230, 200), emTxt);
 
-            spriteBatch.DrawString(font, "För att pausa/fortsätta\nspelet tryck ", new Vector2(230, 250), baseTxt);
+            spriteBatch.DrawString(font, "For att pausa/fortsatta\nspelet tryck ", new Vector2(230, 250), baseTxt);
             spriteBatch.DrawString(fontEm, "P", new Vector2(365, 270), emTxt);
             spriteBatch.DrawString(font, "key", new Vector2(380, 270), baseTxt);
             spriteBatch.DrawString(font, "eller A", new Vector2(230, 290), baseTxt);
             spriteBatch.DrawString(fontEm, "SPACEBAR.", new Vector2(270, 290), emTxt);
 
-            spriteBatch.DrawString(font, "För att gå in i spökläge\ntryck", new Vector2(230, 330), baseTxt);
+            spriteBatch.DrawString(font, "For att ga in i spoklage\ntryck", new Vector2(230, 330), baseTxt);
             spriteBatch.DrawString(fontEm, "G", new Vector2(285, 350), emTxt);
             spriteBatch.DrawString(font, "key.", new Vector2(305, 350), baseTxt);
 
 
-            spriteBatch.DrawString(font, "För att släppa formen\ntryck", new Vector2(230, 390), baseTxt);
+            spriteBatch.DrawString(font, "For att slappa formen\ntryck", new Vector2(230, 390), baseTxt);
             spriteBatch.DrawString(fontEm, "ENTER.", new Vector2(285, 410), emTxt);
 
             spriteBatch.End();
