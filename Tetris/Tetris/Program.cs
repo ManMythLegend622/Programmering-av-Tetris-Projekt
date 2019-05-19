@@ -3,19 +3,15 @@
 namespace Tetris
 {
 #if WINDOWS || LINUX
-    /// <summary>
     /// The main class.
-    /// </summary>
     public static class Program
     {
-        /// <summary>
         /// The main entry point for the application.
-        /// </summary>
         [STAThread]
         static void Main()
         {
-            using (var game = new TetrisGame())
-                game.Run();
+            using (var spel = new Spel1())
+                spel.Run();
         }
     }
 #endif

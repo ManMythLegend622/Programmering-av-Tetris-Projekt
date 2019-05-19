@@ -32,6 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MonoGame.Framework, Version=3.7.1.189, Culture=neutral, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -42,7 +43,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Block.cs" />
+    <Compile Include="Board.cs" />
+    <Compile Include="ShapeT.cs" />
+    <Compile Include="Shape.cs" />
+    <Compile Include="ShapeI.cs" />
+    <Compile Include="ShapeJ.cs" />
+    <Compile Include="ShapeL.cs" />
+    <Compile Include="ShapeO.cs" />
+    <Compile Include="ShapeProxy.cs" />
+    <Compile Include="ShapeS.cs" />
+    <Compile Include="ShapeZ.cs" />
+    <Compile Include="IShape.cs" />
+    <Compile Include="IBoard.cs" />
+    <Compile Include="IShapeFactory.cs" />
+    <Compile Include="Score.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
