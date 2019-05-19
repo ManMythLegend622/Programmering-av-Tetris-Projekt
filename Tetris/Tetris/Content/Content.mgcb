@@ -1,8 +1,8 @@
 
 #----------------------------- Global Properties ----------------------------#
 
-/outputDir:bin/$(Platform)
-/intermediateDir:obj/$(Platform)
+/outputDir:bin/Windows
+/intermediateDir:obj/Windows
 /platform:Windows
 /config:
 /profile:Reach
@@ -12,13 +12,6 @@
 
 
 #---------------------------------- Content ---------------------------------#
-
-#begin File.spritefont
-/importer:FontDescriptionImporter
-/processor:FontDescriptionProcessor
-/processorParam:PremultiplyAlpha=True
-/processorParam:TextureFormat=Compressed
-/build:File.spritefont;scoreFont.spritefont
 
 #begin FilledBlock.png
 /importer:TextureImporter
@@ -31,6 +24,13 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:FilledBlock.png
+
+#begin scoreFont.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:scoreFont.spritefont
 
 #begin scoreFontEm.spritefont
 /importer:FontDescriptionImporter
