@@ -37,12 +37,10 @@
   <PropertyGroup>
     <ApplicationIcon>Icon.ico</ApplicationIcon>
   </PropertyGroup>
-  <PropertyGroup>
-    <ApplicationManifest>app.manifest</ApplicationManifest>
-  </PropertyGroup>
+  <PropertyGroup />
   <ItemGroup>
     <Compile Include="BoardSprite.cs" />
-    <Compile Include="Spel1.cs" />
+    <Compile Include="Game1.cs" />
     <Compile Include="ShapeSprites.cs" />
     <Compile Include="ScoreSprite.cs" />
     <Compile Include="Program.cs" />
@@ -60,7 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <MonoGameContentReference Include="Content\Content.mgcb" />
-    <None Include="app.manifest" />
+    <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\TetrisLibrary\TetrisLibrary\TetrisLibrary.csproj">

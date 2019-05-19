@@ -21,7 +21,7 @@ namespace TetrisGame
         private SpriteFont font;
         private SpriteFont fontTitle;
         private SpriteFont fontEm;
-        private Spel1 game;
+        private Game1 game;
         private SpriteBatch spriteBatch;
         private String gameover = "";
         private Color fontColour = Color.Silver;
@@ -29,7 +29,7 @@ namespace TetrisGame
         int highScore = 0;
 
         /// initialiserar poängsprite objektet
-        public ScoreSprite(Spel1 game, Score score) : base(game)
+        public ScoreSprite(Game1 game, Score score) : base(game)
         {
             this.game = game;
             this.score = score;

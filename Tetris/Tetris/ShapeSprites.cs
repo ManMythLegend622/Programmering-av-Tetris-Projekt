@@ -25,7 +25,7 @@ namespace TetrisGame
         int counterInput = 0;
         int threshold;
 
-        Spel1 game;
+        Game1 game;
         SpriteBatch spriteBatch;
 
         Texture2D filledBlock;
@@ -35,7 +35,7 @@ namespace TetrisGame
         private bool keyPaused = false;
 
         /// initialiserar formsprite objektet
-        public ShapeSprite(Spel1 game, IBoard board, Score score) : base(game)
+        public ShapeSprite(Game1 game, IBoard board, Score score) : base(game)
         {
             this.game = game;
             this.score = score;

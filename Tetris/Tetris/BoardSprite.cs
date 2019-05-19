@@ -19,7 +19,7 @@ namespace TetrisGame
     public class BoardSprite : DrawableGameComponent
     {
         IBoard board;
-        Spel1 game;
+        Game1 game;
         SpriteBatch spriteBatch;
         Texture2D filledBlock;
 
@@ -28,7 +28,7 @@ namespace TetrisGame
         private bool keyGhost = false;
 
         /// game = spel1 objektet, board = logiska representationen av brädet.
-        public BoardSprite(Spel1 game, IBoard board) : base(game)
+        public BoardSprite(Game1 game, IBoard board) : base(game)
         {
             this.game = game;
             this.board = board;
